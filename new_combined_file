@@ -67,3 +67,11 @@ and 2. I will commit these changes and see if it is mirrored onto branch_trial3 
 oh this is so interesting! so for 2. I have committed the changes, but they are NOT mirrored onto branch trial3! 
 why was it mirrorred before? -- maybe because my master branch was not "linked" with the remote repo for some reason.
 now gonna try 1.
+
+omdzomdzomdzomdz this is so amazing
+so I was on branch_trial3, making branch_trial4, expecting it to make a copy of the remote repo master, which ends on 'mirrored across branches?'
+-> and turns out it made a copy of branch_trial3, which ends on ', then push. we see.'
+then eureka moment so I went to the master branch, and made branch_trial5, and then boom, it made a copy of itself, which ends onn 'now gonna try 1.'
+very nice.
+Conclusion: a branch is a copy of the version in that branch you are currently on as you are making a new one.
+now try to merge 4 and 5!
