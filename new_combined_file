@@ -101,3 +101,5 @@ let's try again if I have staged uncommitted changes on the master branch, wheth
 
 how very interseting, now I can edit on both branches, and can switch, and the changes will have already been mirrored across branches.
 which is not exactly what I want. really strange.
+
+very strange, this last paragraph didnt get mirrorred to the master branch just now.
