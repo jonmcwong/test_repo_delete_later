@@ -38,3 +38,20 @@ now there's only master left.
 Now try merging now. 
 I think if I can't directly merge at the remote repo, I need to make a branch, and pull the remote repo,
 and do the merging locally, then push. we see.
+
+okay, so it seems that when I push, somehow it says I don't have a remote repo to this current master branch
+so I made the remote repo as the upstream and successfully pushed.
+Altho I realise when I refreshed the remote repo, there's no new_combined_file, because I have never committed any changes!
+I never did any merging action, unsure where I need it.
+trying to commit now and push.
+
+very interesting now.
+the last paragraph is the change I forgot to stage. But then I commited (for the first time in this sesh).
+then I pushed (without needing to set remote origin as upstream again -> so just 'git push'), and then it worked,
+i.e. on the remote repo, refreshing, I can see the new_combined_file,
+most fascinatingly, without the last paragraph! yay!
+so now let's try to merge after committing all this changes - tryna work out the difference between merge and push.
+
+just staged. it does seem that merge only applies for merging local branches, which I have none now apart from the master only.
+coz I deleted the branch_trial2 already.
+need to solve: what's the point of merging if even unstaged changes are mirrored across branches?
