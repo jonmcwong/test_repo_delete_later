@@ -1,0 +1,40 @@
+This is an edit on line 1
+this is an edit on line 2 innit fam
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+ten
+11
+I saw a rainbow yesterday!
+making a change on master branch, tryna see if it is mirrored in new_combinend_file on branch_trial2
+
+so a staged change on master will be mirrored on branch_trial2
+but can unstage if I want, when I am on branch_trial2
+confirmed committing is the confirmation step before pushing changes to remote repo
+now tryna test if staged change made on branch_trial2 is mirrored on master without committing.
+
+ah! so even if I make a change on branch_trial2, if it is staged when I am on the branch,
+it is mirrored on the master branch, also without committing - very strange. 
+question: what's the point of having a branch on the local repo then, if any staged changes will be mirrored.
+wouldn't staging vs not staging be enough to distinguish between saved and unsaved changes?
+
+now even tested that, unstaged changes made on master branch ALSO are mirrored on branch_trial2
+let's try unstaged changes on branch_trial2
+
+trying whether unstaged changes on branch_trial2 are mirrored onto master branch.
+
+oh wow, so even unstaged changes made on branch are mirrored onto master branch!
+so what's the point of having a branch on the local repo LOL maybe there isn't any point. Let's try merging now.
+
+just deleted branch_trial2;
+it didnt allow me to do so until I have staged the changes and checkout into the master branch (left the branch_trial2).
+now there's only master left.
+Now try merging now. 
+I think if I can't directly merge at the remote repo, I need to make a branch, and pull the remote repo,
+and do the merging locally, then push. we see.
