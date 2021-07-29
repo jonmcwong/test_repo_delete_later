@@ -80,8 +80,3 @@ okay okay okay
 so, when I try to type 'git merge branch_trial4 branch_trial5', it says everything is already updated.
 but it is not? then I realised merge also depends on the branch you are CURRENTLY on
 because I was doing it on the master branch, it thought everything was already up to date.
-so I switched to branch_trial3, and then did ' git merge branch_trial5', and it worked!
-i.e. branch_trial5(more) is merged with branch_trial3 (less), both ending with 'now gonna try 1.'
-and branch_trial4 stayes the same, ending with ', then push. we see.'
-Conclusion: merging does not need staging or committing. it merges the current branch you are on with the one you say you want to merge it with.
-Is there any missing question?
