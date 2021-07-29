@@ -55,3 +55,11 @@ so now let's try to merge after committing all this changes - tryna work out the
 just staged. it does seem that merge only applies for merging local branches, which I have none now apart from the master only.
 coz I deleted the branch_trial2 already.
 need to solve: what's the point of merging if even unstaged changes are mirrored across branches?
+
+how very interesting! I just made branch_trial3 earlier, and just realised it did not have my last 2 paragraphs.
+Maybe this means a new branch is only created to make a copy of the master from the remote repo?
+I'll make another branch to test this
+
+very interesting, I can't switch branch NOW unless I have committed my staged changes. 
+i'll 1. create a new branch to see what it makes a copy of (branch_trial4)
+and 2. I will commit these changes and see if it is mirrored onto branch_trial3 which currently does not have the last 3 (and this).
