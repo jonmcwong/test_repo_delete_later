@@ -91,3 +91,13 @@ tried merging in different directions:
 realised if I am on master (most things), and 'git merge branch_trial4', then 'already up to date.'
 but if when I checkout to branch_trial4, and 'git merge master', then the merging happens.
 Conclusion: the branch that I am CURRENTLY on, when I execute git merge, is the "BASIC" one I want to merge other files INTO.
+
+final check if I commit staged changes here on the branch_trial4 that somehow are now not mirrored to the master branch, 
+whether I will still able to delete branch_trial4 
+
+well somehow, when I make a change that I haven't staged or committed on branch_trail4, 
+somehow I can exit it and checkout into the master branch, but also that it is now mirrored into the master branch
+let's try again if I have staged uncommitted changes on the master branch, whether I can switch branches and have it mirrored onto branch_trial4
+
+how very interseting, now I can edit on both branches, and can switch, and the changes will have already been mirrored across branches.
+which is not exactly what I want. really strange.
